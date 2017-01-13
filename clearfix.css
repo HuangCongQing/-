@@ -1,0 +1,8 @@
+.clearfix:after{
+	content: "";
+	display: table;/*display:block;height:0;overflow: hidden;*/
+	clear: both;
+}
+.clearfix{
+	*zoom:1;
+}
